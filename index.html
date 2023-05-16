@@ -10,10 +10,27 @@
       <h1>TeamBond App</h1>
     </header>
     <main>
-      <section>
+      <div id="home">
         <h2>Welcome!</h2>
         <p>This is the home page of TeamBond App.</p>
-      </section>
+      </div>
+
+      <div class="login-box" id="login">
+        <h1>Login</h1>
+        <form>
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" placeholder="Enter username" required>
+    
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" placeholder="Enter password" required>
+    
+          <button type="submit" id="login-btn">Login</button>
+        </form>
+      </div>
+
+      <div id="profile">
+        Welcome, Admin!
+      </div>
     </main>
     <footer>
       <p>&copy; 2023 Westcliff University</p>
